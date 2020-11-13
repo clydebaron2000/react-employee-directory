@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Company 2020</span>
+      <span>Pupster 2017</span>
     </footer>
   );
 }
