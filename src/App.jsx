@@ -4,7 +4,6 @@ import Search from "./pages/Search";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
-import API from "./utils/API"
 function App() {
 
   return ( 
