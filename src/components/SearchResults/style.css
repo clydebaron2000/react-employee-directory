@@ -1,11 +1,19 @@
 /* ul.search-results li .profile {} */
 
-ul.search-results img {
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
   margin: 0 auto;
-  float: left;
 }
 
-ul.search-results .details {
-  margin: 0 auto;
-  float: right;
+td,
+th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

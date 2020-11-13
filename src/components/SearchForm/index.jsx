@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-// Using the datalist element we can create autofill suggestions based on the props.breeds array
 function SearchForm(props) {
   return (
     <form className="search">
@@ -16,17 +15,14 @@ function SearchForm(props) {
           placeholder="type a name"
           id="name"
         />
-         <label htmlFor="age">Age:</label>
-        <input
-          value={props.criteria.age}
-          onChange={props.handleInputChange}
-          name="age"
-          type="number"
-          className="form-control"
-          placeholder="select an age"
-          id="age"
-        />
-  
+        <label htmlFor="dateRange">DOB Range:</label>
+        <div id="daterange">
+        <input value={props.criteria.startDate}
+          onChange={props.handleInputChange}id="startDate"name="startDate" type="date"></input>
+        -
+        <input value={props.criteria.endDate}
+          onChange={props.handleInputChange}id="endDate"name="endDate" type="date"></input>
+        </div>
         <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
           Search
         </button>

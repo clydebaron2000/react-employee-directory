@@ -11,7 +11,7 @@ function App() {
    <div> 
      <Navbar/>
       <Wrapper>
-        <Route exact path = "/"  component = { Search }/> 
+        <Route path = "/react-employee-directory/"  component = { Search }/> 
       </Wrapper> 
       <Footer/>
     </div> 
