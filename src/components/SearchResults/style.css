@@ -1,3 +1,5 @@
+/* ul.search-results li .profile {} */
+
 ul.search-results img {
   margin: 0 auto;
   float: left;
@@ -5,10 +7,5 @@ ul.search-results img {
 
 ul.search-results .details {
   margin: 0 auto;
-  margin-left: 10px;
-  float: left;
-}
-
-ul.search-results .details p {
-  margin: 0 auto;
+  float: right;
 }
